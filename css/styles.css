@@ -1,0 +1,460 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.4;
+  background-color: #ffffff;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  display: block; /* maddelere göre düzenleme*/
+}
+
+/*
+HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ 
+*/
+.head-main {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header-main {
+  display: flex;
+  align-items: center;
+  /* margin-left: unset; */
+  justify-content: center;
+}
+
+.head-href {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-decoration: none;
+  margin-right: 76px;
+}
+.span-href {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+}
+
+.head-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.main-menu-list {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 40px;
+  margin-left: 30px;
+}
+.main-menu-list-studio {
+  margin-right: 76px;
+}
+.main-menu-list-a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  margin-right: 76px;
+  padding: 24px 0;
+}
+
+.main-menu-list a:hover {
+  color: #404bbf;
+}
+.main-menu-list a:focus {
+  color: #4d5ae5;
+}
+.main-menu-list-studio:active {
+  text-decoration: underline;
+}
+.adres-list {
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+}
+.adres-list li {
+  padding: 10px;
+  display: inline-flex;
+}
+.adres-list li a {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.adres-list address a:hover {
+  color: #404bbf;
+}
+.adres-list ul {
+  display: flex;
+  gap: 40px;
+}
+
+/*
+HEADER BÖLÜMÜ KODLARI BİTİŞ 
+*/
+
+.span-href-footer {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+}
+
+/*SECTİON EFECTİVE BAŞLANGIÇ*/
+.container-efective {
+  /* ödev 4 arka plan başlangıç*/
+
+  background: linear-gradient(rgba(46, 47, 66, 0.8), rgba(255, 255, 255, 0.8)),
+    url("/images/people-office.png");
+  background-size: cover;
+  background-position: center;
+
+  /* ödev 4 arka plan bitiş */
+
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  text-align: center;
+  padding: 188px 0;
+  align-items: center;
+  /* display: inline-block; */
+}
+
+/* .efective-head {
+  padding: 188px 0;
+} */
+.efective-hbas {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #ffffff;
+  max-width: 496px;
+  margin: auto;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 40px;
+}
+.button:hover {
+  background-color: #404bbf;
+}
+
+/*SECTİON EFECTİVE BİTİŞ*/
+
+/* SECTİON FİRST TEXTLERİN BAŞLANGICI*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.frt-txt-hbas {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  margin-bottom: 8px;
+}
+
+.first-text-lim {
+  width: calc((100% - 72px) / 4);
+}
+.first-text p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.container-first-section {
+  margin-bottom: 120px;
+  padding: 120px 0;
+  /* width: 1128px; */
+  text-align: center;
+}
+.first-text {
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+  width: 1128px;
+  height: 104px;
+  gap: 24px;
+}
+.container-first-section .first-text li {
+  list-style-type: none;
+}
+
+.first-section-icon{
+  background-color:#F4F4FD;
+  border: 1px solid #8E8F99;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  
+}
+
+/* SECTİON FİRST TEXTLERİN BİTİŞİ*/
+
+/* OUR TEAM BAŞLANGIÇ*/
+
+.person-img-team img {
+  width: 240px;
+}
+.our-img-list img {
+  width: "360px";
+  border-bottom-style: solid;
+}
+.our-img-list h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.our-img-list p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+
+  color: #434455;
+}
+.person-img-team h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.person-img-team p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #434455;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+  text-align: center;
+  /* width: 1440px; */
+  height: 732px;
+  align-items: center;
+  padding: 120px 0;
+
+  padding-top: 120px;
+}
+
+
+.our-team-head {
+  display: block;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.person-img-team {
+  /* UL CLASSI /*/
+  display: flex;
+  gap: 24px;
+}
+.person-img-li {
+  /* Lİ CLASSI */
+
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 3px 3px 4px #000; /* ödev 4 gölge efekti*/
+}
+.list-one-person {
+  padding: 32px 0;
+}
+.list-one-hbas {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.list-one-p {
+  text-align: center;
+}
+.our-team li {
+  list-style-type: none;
+}
+
+
+/*ödev 4 sosyal medya başlangıç*/
+
+
+/*ödev 4 sosyal medya bitiş*/
+
+
+/* OUR TEAM BİTİŞ*/
+
+/* OUR PORTFOİLO BAŞLANGIÇ*/
+.our-portfolio {
+  display: block;
+  text-align: center;
+  /* width: 1128px; */
+  /* height: 1000px; */
+  align-items: center;
+  margin-left: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  /* border: #e7e9fc;
+  border-width: 1px;
+  border-style: solid; */
+}
+
+.our-port-head {
+  margin-bottom: 72px;
+}
+
+.our-img-list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  text-align: center;
+  /* padding-top: 5px; */
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.our-img-li {
+  width: calc((100% - 72px) / 4);
+  display: inline-table;
+
+}
+
+
+ /*Ödev 4 hover gölge efekti başlangıç */
+ .our-img-li:hover {
+  opacity: 0.5;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+   /*Ödev 4 hover gölge efekti başlangıç */
+
+.our-img-list img {
+  width: 300px;
+  height: 250px;
+}
+
+.list-one-port {
+  margin-bottom: 8px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+/* OUR PORTFOİLO BİTİŞ*/
+
+/* FOOTER BAŞLANGIÇ*/
+
+.footer-menu {
+  background-color: #2e2f42;
+  /* width: 1440px; */
+  height: 312px;
+  padding: 100px 0;
+  display: flex;
+  /* align-items: center; */
+}
+
+.footer-href {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-prg {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  max-width: 264px;
+}
+.span-href-footer {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+}
+.social-media-group-footer{
+  position: relative;
+  text-align: center;
+  margin-right:500px;
+  width: 500px;
+ 
+
+
+}
+.social-media-group-footer-hbas{
+padding-bottom: 10px;
+color: white;
+}
+/* FOOTER BİTİŞ*/
+
