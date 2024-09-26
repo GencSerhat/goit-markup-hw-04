@@ -87,7 +87,23 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   color: #2e2f42;
   margin-right: 76px;
   padding: 24px 0;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
+
+
+.main-menu-list a::after {
+  content: '';
+  position: absolute;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.header-list-menu .active::after {
+  background-color: black;
+}
+
 
 .main-menu-list a:hover {
   color: #404bbf;
@@ -140,7 +156,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .container-efective {
   /* ödev 4 arka plan başlangıç*/
 
-  background: linear-gradient(rgba(46, 47, 66, 0.8), rgba(255, 255, 255, 0.8)),
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url("/images/people-office.png");
   background-size: cover;
   background-position: center;
@@ -248,12 +264,14 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   width: 264px;
   height: 112px;
   border-radius: 4px;
+  padding-top: 15px;
   
 }
 
 /* SECTİON FİRST TEXTLERİN BİTİŞİ*/
 
 /* OUR TEAM BAŞLANGIÇ*/
+
 
 .person-img-team img {
   width: 240px;
