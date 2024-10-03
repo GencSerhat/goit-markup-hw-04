@@ -108,6 +108,8 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 .main-menu-list-a:hover {
   text-decoration: underline;
   color: #4d5ae5;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -116,6 +118,8 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   width:100%;
   transition-property: color;
   border-width: 0;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-menu-list a:focus {
@@ -123,6 +127,8 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 }
 .main-menu-list-studio:active {
   text-decoration: underline;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adres-list {
   display: flex;
@@ -143,6 +149,8 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 
 .adres-list address a:hover {
   color: #404bbf;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adres-list ul {
   display: flex;
@@ -214,6 +222,8 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 .button:hover {
   background-color: #404bbf;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*SECTİON EFECTİVE BİTİŞ*/
