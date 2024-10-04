@@ -189,10 +189,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   align-items: center;
 }
 
-.efective-head {
-  /* padding: 188px 0;
-  background-color: #2e2f42; */
-}
+
 .efective-hbas {
   font-weight: 700;
   font-size: 56px;
@@ -294,13 +291,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   position: relative;
 }
 
-.person-img-team img {
-  width: 240px;
-}
-.our-img-list img {
-  width: "360px";
-  border-bottom-style: solid;
-}
+
 .our-img-list h3 {
   font-weight: 500;
   font-size: 20px;
@@ -332,7 +323,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .our-team {
   background-color: #f4f4fd;
   text-align: center;
-  /* width: 1440px; */
+
   height: 732px;
   align-items: center;
   padding: 120px 0;
@@ -358,8 +349,16 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
 
-  box-shadow: 3px 3px 4px #000; /* ödev 4 gölge efekti*/
+  /* box-shadow: 0px 1px 1px 0px #2E2F4229;
+  
+  box-shadow: 0px 1px 6px 0px #2E2F4214; */
+  
+  /* box-shadow: 3px 3px 4px #000; ödev 4 gölge efekti  */
+
+
+
 }
 .list-one-person {
   padding: 32px 0;
@@ -414,11 +413,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .list-one-port:hover{
-  opacity: 0.5;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- } */
+
 /*Ödev 4 hover gölge efekti başlangıç */
 
 .our-img-list img {
@@ -464,11 +459,11 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 
 .footer-menu {
   background-color: #2e2f42;
-  /* width: 1440px; */
+ 
   height: 312px;
   padding: 100px 0;
   display: flex;
-  /* align-items: center; */
+ 
 }
 
 .footer-href {
@@ -500,12 +495,24 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 .social-media-group-footer {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   margin-right: 500px;
-  width: 500px;
+  
 }
+.bas-prg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .div{
+  display: block;
+} */
 .social-media-group-footer-hbas {
-  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  margin-bottom: 15px;
   color: white;
 }
 
@@ -514,10 +521,13 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .social-media-group {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .li-icon {
   padding: 10px;
+}
+.li-icon-footer{
+  padding-right: 15px;
 }
 .link-icon {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -535,6 +545,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .icon-svg:hover {
   --color1: #31d0aa;
   transition-property: color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon:hover {
