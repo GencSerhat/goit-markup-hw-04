@@ -417,8 +417,8 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 /*Ödev 4 hover gölge efekti başlangıç */
 
 .our-img-list img {
-  width: 300px;
-  height: 250px;
+  width: 360px;
+  height: 300px;
 }
 
 .list-one-port {
@@ -440,8 +440,8 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   background-color: #4d5ae5;
   border-style: groove;
   position: absolute;
-  width: 300px;
-  height: 250px;
+  width: 360px;
+  height: 300px;
   opacity: 0;
 }
 .kaplama-metin:hover {
