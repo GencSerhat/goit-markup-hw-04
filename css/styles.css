@@ -448,7 +448,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  
 }
 
 .kaplama-metin {
@@ -507,7 +506,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 .social-media-group-footer {
   position: relative;
-  /* text-align: center; */
+ 
   margin-right: 500px;
 }
 .bas-prg {
@@ -515,9 +514,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   align-items: center;
   justify-content: space-between;
 }
-/* .div{
-  display: block;
-} */
+
 .social-media-group-footer-hbas {
   font-weight: 500;
   font-size: 16px;
@@ -532,7 +529,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .social-media-group {
   display: flex;
   justify-content: center;
-  /* margin-top: 30px; */
+  
 }
 .li-icon {
   padding: 10px;
@@ -540,28 +537,23 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .li-icon-footer {
   padding-right: 15px;
 }
-.link-icon {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
-}
-.li-icon:hover {
-  fill: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
-}
-.icon-svg {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
-}
-.icon-svg:hover {
-  --color1: #31d0aa;
-  transition-property: color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.icon:hover {
-  fill: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+
+
+.icon {
+  width: 64px;
+  height: 64px;
 }
-/* svg hover  bitiş */
+.social-icon {
+  width: 40px;
+  height: 40px;
+  fill: #4d5ae5;
+}
+.social-icon:hover {
+  fill: #31d0aa;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon:focus {
+  fill: #31d0aa;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
