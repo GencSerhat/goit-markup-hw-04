@@ -353,10 +353,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
 
-  /* box-shadow: 0px 1px 1px 0px #2E2F4229;
-  
-  box-shadow: 0px 1px 6px 0px #2E2F4214; */
-
   /* box-shadow: 3px 3px 4px #000; ödev 4 gölge efekti  */
 }
 .list-one-person {
@@ -506,7 +502,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 .social-media-group-footer {
   position: relative;
- 
+
   margin-right: 500px;
 }
 .bas-prg {
@@ -529,7 +525,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .social-media-group {
   display: flex;
   justify-content: center;
-  
 }
 .li-icon {
   padding: 10px;
@@ -538,8 +533,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   padding-right: 15px;
 }
 
-
-
 .icon {
   width: 64px;
   height: 64px;
@@ -547,13 +540,26 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .social-icon {
   width: 40px;
   height: 40px;
-  fill: #4d5ae5;
+  --color2: #4d5ae5;
 }
 .social-icon:hover {
-  fill: #31d0aa;
+  --color2: #31d0aa;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon:focus {
-  fill: #31d0aa;
+  --color2: #31d0aa;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-svg{
+  width: 40px;
+  height: 40px;
+  --color2: #4d5ae5;
+}
+.icon-svg:hover{
+  --color2: #31d0aa;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-svg:focus {
+  --color2: #31d0aa;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
